@@ -1,7 +1,20 @@
 {
   "name": "thor-components",
   "version": "0.1.0",
-  "private": true,
+  "main": "src/stories",
+  "directories": {
+    "lib": "src/stories"
+  },
+  "files": [
+    "src/stories"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StevenCreates/thor-components"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
