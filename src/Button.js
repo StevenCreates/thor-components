@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./button.css";
 import { css } from "@mxenabled/cssinjs";
 
 export const BUTTON_VARIANTS = {
@@ -59,7 +58,7 @@ const getStyles = (disabled) =>
     alignItems: 'center',
     justifyContent: 'center',
     border: 'none',
-    borderRadius: '6px',
+    borderRadius: '4px',
     cursor: disabled ? 'not-allowed' : 'pointer',
     whiteSpace: 'nowrap',
     fontSize: '12px',
